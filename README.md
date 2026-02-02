@@ -6,7 +6,7 @@ The official PyTorch implementation of the paper SGGP.
 Since the paper has not yet been accepted, the training part of the code for 'train_maxNensemble.py' has not been fully uploaded, and thus it cannot be trained. However, the relevant model files and test codes can run properly. We will upload all the complete codes related to 'train_maxNensemble.py' after the article is officially accepted.
 
 # Overview
-This repo contains the PyTorch implementation of SEGP, described in the paper SEGP.  
+This repo contains the PyTorch implementation of SGGP, described in the paper SGGP.  
 
 # Environment
 &bull; python >= 3.10.12<br>
@@ -31,7 +31,7 @@ Download and extract [datasets](https://github.com/MediaBrain-SJTU/MVFA-AD?tab=r
 # Train
 &bull; baseline：python train_baseline.py --obj $target-object
 
-&bull; SEGP：python train_maxNensemble.py --obj $target-object
+&bull; SGGP：python train_maxNensemble.py --obj $target-object
 
 # Test
 &bull; python test.py --obj $target-object --save_path $path-model
@@ -40,7 +40,7 @@ Download and extract [datasets](https://github.com/MediaBrain-SJTU/MVFA-AD?tab=r
 | method | OCT| HIS| Chest| Brain| Brain_p| Liver| Liver_p| RESC| RESC_p 
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- 
 | baseline | 99.57| 83.58| 82.46| 90.94| 96.89| 86.94| 99.57| 95.86| 99.16 
-| max5ensemble | 99.67| 83.84| 83.27| 91.74| 97.75| 87.13| 99.71| 96.29| 99.03 
+| SGGP | 99.67| 83.84| 83.27| 91.74| 97.75| 87.13| 99.71| 96.29| 99.03 
 
 # baseline models
 &bull;OCT: link: https://pan.baidu.com/s/1Fj3EUwDIYb8q1gbajIVXlQ download code: kg3r
@@ -55,7 +55,7 @@ Download and extract [datasets](https://github.com/MediaBrain-SJTU/MVFA-AD?tab=r
 
 &bull; RESC: link: https://pan.baidu.com/s/1XNMd5ho9xSs12jkfYHkrxw download code: 424r
 
-# max5ensemble models
+# SGGP models
 &bull; OCT: link: https://pan.baidu.com/s/1FlrmIn3P0eopJMe0sg_pVA download code: h4r8
 
 &bull; HIS: link: https://pan.baidu.com/s/1lCSIradrGNmovkIhMJVh6A download code: fgcs
