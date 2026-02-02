@@ -3,7 +3,7 @@
 The official PyTorch implementation of the paper SGGP.
 
 # NOTE
-Since the paper has not yet been accepted, the training part of the code for 'train_maxNensemble.py' has not been fully uploaded, and thus it cannot be trained. However, the relevant model files and test codes can run properly. We will upload all the complete codes related to 'train_maxNensemble.py' after the article is officially accepted.
+Since the paper has not yet been accepted, the training part of the code for 'train_SGGP.py' has not been fully uploaded, and thus it cannot be trained. However, the relevant model files and test codes can run properly. We will upload all the complete codes related to 'train_SGGP.py' after the article is officially accepted.
 
 # Overview
 This repo contains the PyTorch implementation of SGGP, described in the paper SGGP.  
@@ -31,7 +31,7 @@ Download and extract [datasets](https://github.com/MediaBrain-SJTU/MVFA-AD?tab=r
 # Train
 &bull; baseline：python train_baseline.py --obj $target-object
 
-&bull; SGGP：python train_maxNensemble.py --obj $target-object
+&bull; SGGP：python train_SGGP.py --obj $target-object
 
 # Test
 &bull; python test.py --obj $target-object --save_path $path-model
