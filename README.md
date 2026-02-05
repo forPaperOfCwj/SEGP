@@ -68,6 +68,10 @@ Download and extract [datasets](https://github.com/MediaBrain-SJTU/MVFA-AD?tab=r
 
 &bull; RESC: link: https://pan.baidu.com/s/14j9m9_tmcTMpmejWUPALXg download code: cu27
 
+# Supplementary Material
+The detailed experimental results (Tables S.I–S.VI) and additional visualizations (Fig. S.1) referenced in the paper can be found in the file:
+[📂 Supplementary_Material.pdf](./Supplementary_Material.pdf)
+
 # Acknowledgement
 We borrow some codes from [OpenCLIP](https://github.com/mlfoundations/open_clip), and [MVFA](https://github.com/MediaBrain-SJTU/MVFA-AD?tab=readme-ov-file).
 
